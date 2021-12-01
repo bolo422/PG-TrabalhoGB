@@ -1,0 +1,4 @@
+﻿  Origem.cpp
+C:\Users\crow1\Desktop\Trabalho do Grau B\HelloFramework\HelloFramework\Origem.cpp(42,25): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\crow1\Desktop\Trabalho do Grau B\HelloFramework\HelloFramework\Origem.cpp(542,56): warning C4305: 'argumento': truncamento de 'double' para 'float'
+  HelloFramework.vcxproj -> C:\Users\crow1\Desktop\Trabalho do Grau B\HelloFramework\Debug\HelloFramework.exe

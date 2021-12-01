@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{8b934b73-36d0-445c-89a7-513132f3d34d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Origem.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\glad.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\f1.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f1.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f2.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f2.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f3.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f3.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fimagem.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\fimagem.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f4.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f4.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f5.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f5.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f6.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f6.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f7.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\f7.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn1.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn1.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn2.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn2.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn3.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn3.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn4.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn4.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn5.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn5.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn6.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn6.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn7.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\sn7.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk2.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk2.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk3.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk3.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk4.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk4.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk5.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk5.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk1.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\stk1.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk1.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk1.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk2.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk2.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk3.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk3.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk4.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk4.vs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk5.fs">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\istk5.vs">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
